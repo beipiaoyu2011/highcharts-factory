@@ -9,11 +9,21 @@
 <div class="highchartBox" id="highchartBox">
 
 </div>
+<!-- demo1 -->
+<div id="container" style="height: 400px; min-width: 600px;margin-top:20px;"></div>
+Set compare:
+<button class="compare" data-compare="none">None</button>
+<button class="compare" data-compare="value">Value</button>
+<button class="compare" data-compare="percent">Percent</button>
+
+
+
+
 </body>
 <script src="js/frame/require.js"></script>
 <script>
   require(['js/main'],function() {
-    require(['js/index'])
+    require(['js/index','js/demo1'])
   });
 </script>
 </html>
