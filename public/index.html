@@ -6,6 +6,15 @@
     <title>hightChartFactory</title>
 </head>
 <body>
+<!-- 头像居中问题 -->
+<div class="imgBox">
+      <img src="http://pics.taobao.com/bao/album/promotion/taoscars_180x95_071112_sr.jpg">
+</div>
+<div style="margin:30px;">
+    <button class="alertBtn">alert</button>
+    <button class="confirmBtn">confirm</button>
+</div>
+
 <div class="highchartBox" id="highchartBox">
 
 </div>
@@ -17,13 +26,11 @@ Set compare:
 <button class="compare" data-compare="percent">Percent</button>
 
 
-
-
 </body>
 <script src="js/frame/require.js"></script>
 <script>
   require(['js/main'],function() {
-    require(['js/index','js/demo1'])
+    require(['js/index','js/demo1','js/img'])
   });
 </script>
 </html>
