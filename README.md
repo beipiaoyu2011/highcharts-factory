@@ -6,12 +6,15 @@ highcharts factory
 
 2、封装的highcharts factory方法
 
-#http://localhost:9000/index.html
+http://localhost:9000/index.html
 
-#其中包括一个弹窗组件popup.js
+其中还包括：
 
+#一个弹窗组件popup.js
 
-用一行 CSS 居中并裁剪图片:
+![](http://i.imgur.com/q4Ji8zW.png)
+
+#用一行 CSS 居中并裁剪图片:
 
 img {
      object-fit: cover;
@@ -19,5 +22,9 @@ img {
 
 ![](http://i.imgur.com/wMl2RSf.png)
 
+兼容以下浏览器
 
-![](http://i.imgur.com/q4Ji8zW.png)
+![](http://i.imgur.com/AhPr63d.png)
+
+
+
