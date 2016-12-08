@@ -26,6 +26,4 @@ img {
 
 ![](http://i.imgur.com/AhPr63d.png)
 
-
-
-
+#Javascript 设计模式详解 prototype.js
